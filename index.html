@@ -5,18 +5,20 @@
     <title></title>
 </head>
 <script type="text/javascript">
-    let allowedProjects=['zeNav']
+    document.addEventListener("DOMContentLoaded", function() {
+        let allowedProjects=['zenav']
         let project = new URLSearchParams(window.location.search).get('project');
         if(!allowedProjects.includes(project)){
-            document.getElementById('ref').innerHTML = 'blocked';
+            document.getElementsByTagName('body')[0].innerHTML = 'blocked';
+            console.log(document.getElementsByTagName('body')[0])
         }
         else {
-            document.getElementById('ref').innerHTML = 'confirmed';
+            document.getElementsByTagName('body')[0].innerHTML = 'confirmed';
         }
+    });
+
 </script>
 <body>
-<div id="ref"></div>
-
 
 </body>
 </html>
