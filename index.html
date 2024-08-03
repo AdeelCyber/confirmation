@@ -5,12 +5,17 @@
     <title></title>
 </head>
 <script type="text/javascript">
-    var ref = document.getElementById('ref');
-    ref.innerHTML =document.referrer;
+    let allowedProjects=['zeNav']
+        let project = new URLSearchParams(window.location.search).get('project');
+        if(!allowedProjects.includes(project)){
+            document.getElementById('ref').innerHTML = 'blocked';
+        }
+        else {
+            document.getElementById('ref').innerHTML = 'confirmed';
+        }
 </script>
 <body>
 <div id="ref"></div>
-blocked
 
 
 </body>
