@@ -83,6 +83,10 @@ hr {
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
 
 /*
 Remove the default font size and weight for headings.
@@ -974,6 +978,24 @@ body {
 
 .col-span-5 {
   grid-column: span 5 / span 5;
+}
+.col-span-6{
+  grid-column: span 6 / span 12;
+}
+.col-span-7{
+  grid-column: span 7 / span 12;
+}
+.col-span-8{
+  grid-column: span 8 / span 12;
+}
+.col-span-9{
+  grid-column: span 9 / span 12;
+}
+.col-span-10{
+  grid-column: span 10 / span 12;
+}
+.col-span-11{
+  grid-column: span 11 / span 12;
 }
 
 .m-0 {
@@ -4951,7 +4973,7 @@ body {
   right: 1.75rem !important;
 }
 
-:is(.dark span.flatpickr-weekday),:is(.dark 
+:is(.dark span.flatpickr-weekday),:is(.dark
 .flatpickr-months .flatpickr-month) {
   fill: #FFFFFF !important;
   --tw-text-opacity: 1 !important;
@@ -4968,7 +4990,7 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
-:is(.dark .flatpickr-day.selected),:is(.dark  .flatpickr-day.startRange),:is(.dark 
+:is(.dark .flatpickr-day.selected),:is(.dark  .flatpickr-day.startRange),:is(.dark
 .flatpickr-day.selected),:is(.dark  .flatpickr-day.endRange) {
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
