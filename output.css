@@ -2111,6 +2111,10 @@ body {
   width: 93%;
 }
 
+.w-\[94\%\] {
+  width: 94%;
+}
+
 .w-\[95\%\] {
   width: 95%;
 }
@@ -3740,6 +3744,11 @@ body {
 .px-2\.5 {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .px-26 {
