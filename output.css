@@ -988,8 +988,8 @@ body {
   grid-column: span 7 / span 7;
 }
 
-.col-span-9 {
-  grid-column: span 9 / span 12;
+.col-span-8 {
+  grid-column: span 8 / span 8;
 }
 
 .m-0 {
