@@ -988,6 +988,10 @@ body {
   grid-column: span 7 / span 7;
 }
 
+.col-span-9 {
+  grid-column: span 9 / span 12;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -1041,11 +1045,6 @@ body {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-25 {
-  margin-top: 6.25rem;
-  margin-bottom: 6.25rem;
 }
 
 .my-3 {
@@ -1176,6 +1175,10 @@ body {
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mr-1 {
@@ -2858,6 +2861,11 @@ body {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-b {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
 }
 
 .rounded-b-2xl {
